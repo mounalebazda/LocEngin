@@ -1,18 +1,14 @@
-## Getting Started
+# Project Overview 
+The application caters to the specific needs of a construction equipment rental store by maintaining detailed records of equipment, clients, and transactions. It ensures the streamlined operation of daily tasks such as equipment tracking, client management, and transaction processing.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+# Key Features:
+- Inventory Management: Tracks equipment by categories and manages updates to quantities and availability.
+- Client Management: Handles client information including contact details, profession, and transaction history.
+- Rental Transactions: Facilitates the rental process, return of equipment, and the application of any penalties for late returns.
+- Query Handling: Provides detailed queries about equipment availability, client-specific rentals, and account statuses.
+- Dynamic Reporting: Generates up-to-date reports on equipment status, rental histories, and client account balances.
 
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+# Technology Stack
+- Language: Java
+- Data Storage: CSV files
+- Architecture: Layered architecture pattern
